@@ -17,13 +17,13 @@ const Contact = () => {
           <Form.Control type="email" placeholder="Enter your email" />
         </Form.Group>
 
-        <Form.Group controlId="formMessage" className="mb-4"> {/* Add margin-bottom */}
+        <Form.Group controlId="formMessage" className="mb-4"> 
           <Form.Label>Message</Form.Label>
           <Form.Control as="textarea" rows={5} placeholder="Enter your message" />
         </Form.Group>
 
         <Form.Group controlId="formSubmit">
-          <Button variant="primary" type="submit" className="btn-block mt-2"> {/* Add margin-top */}
+          <Button variant="primary" type="submit" className="btn-block mt-2"> 
             Submit
           </Button>
         </Form.Group>

@@ -1,7 +1,7 @@
-// src/App.js
+
 import React from 'react';
 import NavigationBar from './components/NavigationBar';
-import RoutesConfig from './routes/routes'; // Import the RoutesConfig component
+import RoutesConfig from './routes/routes'; 
 import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
